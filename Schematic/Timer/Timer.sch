@@ -185,7 +185,7 @@ L Device:C C2
 U 1 1 5FE0E6B7
 P 2800 2000
 F 0 "C2" H 2685 1954 50  0000 R CNN
-F 1 "100nF" H 2685 2045 50  0000 R CNN
+F 1 "1µF" H 2685 2045 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2838 1850 50  0001 C CNN
 F 3 "~" H 2800 2000 50  0001 C CNN
 	1    2800 2000
@@ -450,87 +450,87 @@ $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S1
 U 1 1 5FE61381
-P 2625 6250
-F 0 "S1" H 2625 6525 50  0000 C CNN
-F 1 "GPTS203211B" H 2625 6434 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2825 6450 50  0001 L CNN
-F 3 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 2825 6550 60  0001 L CNN
-F 4 "CW181-ND" H 2825 6650 60  0001 L CNN "Digi-Key_PN"
-F 5 "GPTS203211B" H 2825 6750 60  0001 L CNN "MPN"
-F 6 "Switches" H 2825 6850 60  0001 L CNN "Category"
-F 7 "Pushbutton Switches" H 2825 6950 60  0001 L CNN "Family"
-F 8 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 2825 7050 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590" H 2825 7150 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH PUSHBUTTON SPST 1A 30V" H 2825 7250 60  0001 L CNN "Description"
-F 11 "CW Industries" H 2825 7350 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2825 7450 60  0001 L CNN "Status"
-	1    2625 6250
+P 2750 6250
+F 0 "S1" H 2750 6525 50  0000 C CNN
+F 1 "GPTS203211B" H 2750 6434 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2950 6450 50  0001 L CNN
+F 3 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 2950 6550 60  0001 L CNN
+F 4 "CW181-ND" H 2950 6650 60  0001 L CNN "Digi-Key_PN"
+F 5 "GPTS203211B" H 2950 6750 60  0001 L CNN "MPN"
+F 6 "Switches" H 2950 6850 60  0001 L CNN "Category"
+F 7 "Pushbutton Switches" H 2950 6950 60  0001 L CNN "Family"
+F 8 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 2950 7050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590" H 2950 7150 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH PUSHBUTTON SPST 1A 30V" H 2950 7250 60  0001 L CNN "Description"
+F 11 "CW Industries" H 2950 7350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2950 7450 60  0001 L CNN "Status"
+	1    2750 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S3
 U 1 1 5FE61E1A
-P 2625 6625
-F 0 "S3" H 2625 6900 50  0000 C CNN
-F 1 "GPTS203211B" H 2625 6809 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2825 6825 50  0001 L CNN
-F 3 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 2825 6925 60  0001 L CNN
-F 4 "CW181-ND" H 2825 7025 60  0001 L CNN "Digi-Key_PN"
-F 5 "GPTS203211B" H 2825 7125 60  0001 L CNN "MPN"
-F 6 "Switches" H 2825 7225 60  0001 L CNN "Category"
-F 7 "Pushbutton Switches" H 2825 7325 60  0001 L CNN "Family"
-F 8 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 2825 7425 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590" H 2825 7525 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH PUSHBUTTON SPST 1A 30V" H 2825 7625 60  0001 L CNN "Description"
-F 11 "CW Industries" H 2825 7725 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2825 7825 60  0001 L CNN "Status"
-	1    2625 6625
+P 2750 6625
+F 0 "S3" H 2750 6900 50  0000 C CNN
+F 1 "GPTS203211B" H 2750 6809 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2950 6825 50  0001 L CNN
+F 3 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 2950 6925 60  0001 L CNN
+F 4 "CW181-ND" H 2950 7025 60  0001 L CNN "Digi-Key_PN"
+F 5 "GPTS203211B" H 2950 7125 60  0001 L CNN "MPN"
+F 6 "Switches" H 2950 7225 60  0001 L CNN "Category"
+F 7 "Pushbutton Switches" H 2950 7325 60  0001 L CNN "Family"
+F 8 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 2950 7425 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590" H 2950 7525 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH PUSHBUTTON SPST 1A 30V" H 2950 7625 60  0001 L CNN "Description"
+F 11 "CW Industries" H 2950 7725 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2950 7825 60  0001 L CNN "Status"
+	1    2750 6625
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S5
 U 1 1 5FE62621
-P 2625 7000
-F 0 "S5" H 2625 7275 50  0000 C CNN
-F 1 "GPTS203211B" H 2625 7184 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2825 7200 50  0001 L CNN
-F 3 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 2825 7300 60  0001 L CNN
-F 4 "CW181-ND" H 2825 7400 60  0001 L CNN "Digi-Key_PN"
-F 5 "GPTS203211B" H 2825 7500 60  0001 L CNN "MPN"
-F 6 "Switches" H 2825 7600 60  0001 L CNN "Category"
-F 7 "Pushbutton Switches" H 2825 7700 60  0001 L CNN "Family"
-F 8 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 2825 7800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590" H 2825 7900 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH PUSHBUTTON SPST 1A 30V" H 2825 8000 60  0001 L CNN "Description"
-F 11 "CW Industries" H 2825 8100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2825 8200 60  0001 L CNN "Status"
-	1    2625 7000
+P 2750 7000
+F 0 "S5" H 2750 7275 50  0000 C CNN
+F 1 "GPTS203211B" H 2750 7184 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2950 7200 50  0001 L CNN
+F 3 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 2950 7300 60  0001 L CNN
+F 4 "CW181-ND" H 2950 7400 60  0001 L CNN "Digi-Key_PN"
+F 5 "GPTS203211B" H 2950 7500 60  0001 L CNN "MPN"
+F 6 "Switches" H 2950 7600 60  0001 L CNN "Category"
+F 7 "Pushbutton Switches" H 2950 7700 60  0001 L CNN "Family"
+F 8 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 2950 7800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590" H 2950 7900 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH PUSHBUTTON SPST 1A 30V" H 2950 8000 60  0001 L CNN "Description"
+F 11 "CW Industries" H 2950 8100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2950 8200 60  0001 L CNN "Status"
+	1    2750 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1725 6250 2150 6250
-Text Label 2150 6250 2    50   ~ 0
-BUTTON0
+	1725 6250 2225 6250
+Text Label 2225 6250 2    50   ~ 0
+IOEXT_BTN0
 Wire Wire Line
-	2825 6250 3250 6250
-Text Label 3250 6250 2    50   ~ 0
-BUTTON1
+	2950 6250 3425 6250
+Text Label 3425 6250 2    50   ~ 0
+IOEXT_BTN1
 Wire Wire Line
-	1725 6625 2150 6625
-Text Label 2150 6625 2    50   ~ 0
-BUTTON2
+	1725 6625 2225 6625
+Text Label 2225 6625 2    50   ~ 0
+IOEXT_BTN2
 Wire Wire Line
-	2825 6625 3250 6625
-Text Label 3250 6625 2    50   ~ 0
-BUTTON3
+	2950 6625 3425 6625
+Text Label 3425 6625 2    50   ~ 0
+IOEXT_BTN3
 Wire Wire Line
-	1725 7000 2150 7000
-Text Label 2150 7000 2    50   ~ 0
-BUTTON4
+	1725 7000 2225 7000
+Text Label 2225 7000 2    50   ~ 0
+IOEXT_BTN4
 Wire Wire Line
-	2825 7000 3250 7000
-Text Label 3250 7000 2    50   ~ 0
-BUTTON5
+	2950 7000 3425 7000
+Text Label 3425 7000 2    50   ~ 0
+IOEXT_BTN5
 $Comp
 L IFS-Power:GND #PWR01
 U 1 1 5FE742E9
@@ -559,50 +559,50 @@ Wire Wire Line
 $Comp
 L IFS-Power:GND #PWR04
 U 1 1 5FE7CAAE
-P 2350 7125
-F 0 "#PWR04" H 2350 6875 60  0001 C CNN
-F 1 "GND" H 2355 6952 50  0000 C CNN
-F 2 "" H 2350 7125 60  0000 C CNN
-F 3 "" H 2350 7125 60  0000 C CNN
-	1    2350 7125
+P 2475 7125
+F 0 "#PWR04" H 2475 6875 60  0001 C CNN
+F 1 "GND" H 2480 6952 50  0000 C CNN
+F 2 "" H 2475 7125 60  0000 C CNN
+F 3 "" H 2475 7125 60  0000 C CNN
+	1    2475 7125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2425 6250 2350 6250
+	2550 6250 2475 6250
 Wire Wire Line
-	2350 6250 2350 6625
+	2475 6250 2475 6625
 Wire Wire Line
-	2425 6625 2350 6625
-Connection ~ 2350 6625
+	2550 6625 2475 6625
+Connection ~ 2475 6625
 Wire Wire Line
-	2350 6625 2350 7000
+	2475 6625 2475 7000
 Wire Wire Line
-	2425 7000 2350 7000
-Connection ~ 2350 7000
+	2550 7000 2475 7000
+Connection ~ 2475 7000
 Wire Wire Line
-	2350 7000 2350 7125
+	2475 7000 2475 7125
 Wire Wire Line
 	4600 6500 4600 7025
 Text Label 4600 7025 1    50   ~ 0
-BUTTON0
+IOEXT_BTN0
 Wire Wire Line
 	4700 6500 4700 7025
 Text Label 4700 7025 1    50   ~ 0
-BUTTON1
+IOEXT_BTN1
 Wire Wire Line
 	4800 6500 4800 7025
 Wire Wire Line
 	4900 6500 4900 7025
 Text Label 4900 7025 1    50   ~ 0
-BUTTON2
+IOEXT_BTN2
 Wire Wire Line
 	5000 6500 5000 7025
 Text Label 5000 7025 1    50   ~ 0
-BUTTON5
+IOEXT_BTN5
 Wire Wire Line
 	5100 6500 5100 7025
 Text Label 5100 7025 1    50   ~ 0
-BUTTON4
+IOEXT_BTN4
 Wire Wire Line
 	4125 5675 4125 5800
 Wire Wire Line
@@ -640,36 +640,20 @@ Text Label 6275 3975 0    50   ~ 0
 ~RESET
 Wire Wire Line
 	5400 6500 5400 7025
-Text Label 5400 7025 1    50   ~ 0
-MCP0
 Wire Wire Line
 	5500 6500 5500 7025
-Text Label 5500 7025 1    50   ~ 0
-MCP1
 Wire Wire Line
 	5600 6500 5600 7025
-Text Label 5600 7025 1    50   ~ 0
-MCP2
 Wire Wire Line
 	5700 6500 5700 7025
-Text Label 5700 7025 1    50   ~ 0
-MCP3
 Wire Wire Line
 	5800 6500 5800 7025
-Text Label 5800 7025 1    50   ~ 0
-MCP4
 Wire Wire Line
 	5900 6500 5900 7025
-Text Label 5900 7025 1    50   ~ 0
-MCP5
 Wire Wire Line
 	6000 6500 6000 7025
-Text Label 6000 7025 1    50   ~ 0
-MCP6
 Wire Wire Line
 	6100 6500 6100 7025
-Text Label 6100 7025 1    50   ~ 0
-MCP7
 $Comp
 L IFS-Power:GND #PWR022
 U 1 1 5FEECCA0
@@ -714,11 +698,11 @@ Text Label 4800 5000 3    50   ~ 0
 Wire Wire Line
 	4800 5400 4800 5000
 Text Label 5000 5000 3    50   ~ 0
-MCP_INT
+MCP_INTA
 Wire Wire Line
 	5000 5400 5000 5000
 Text Label 6275 4275 0    50   ~ 0
-MCP_INT
+MCP_INTA
 Wire Wire Line
 	6675 4275 6275 4275
 Wire Wire Line
@@ -935,36 +919,20 @@ F 3 "~" H 10250 6025 50  0001 C CNN
 	1    10250 6025
 	1    0    0    -1  
 $EndComp
-Text Label 9525 6425 0    50   ~ 0
-MCP7
 Wire Wire Line
 	10050 6425 9525 6425
-Text Label 9525 6325 0    50   ~ 0
-MCP6
 Wire Wire Line
 	10050 6325 9525 6325
-Text Label 9525 6225 0    50   ~ 0
-MCP5
 Wire Wire Line
 	10050 6225 9525 6225
-Text Label 9525 6125 0    50   ~ 0
-MCP4
 Wire Wire Line
 	10050 6125 9525 6125
-Text Label 9525 6025 0    50   ~ 0
-MCP3
 Wire Wire Line
 	10050 6025 9525 6025
-Text Label 9525 5925 0    50   ~ 0
-MCP2
 Wire Wire Line
 	10050 5925 9525 5925
-Text Label 9525 5825 0    50   ~ 0
-MCP1
 Wire Wire Line
 	10050 5825 9525 5825
-Text Label 9525 5725 0    50   ~ 0
-MCP0
 Wire Wire Line
 	10050 5725 9525 5725
 $Comp
@@ -1384,7 +1352,7 @@ F 3 "" H 5950 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4800 7025 1    50   ~ 0
-BUTTON3
+IOEXT_BTN3
 Wire Wire Line
 	4850 2475 5500 2475
 Wire Wire Line
@@ -1434,4 +1402,38 @@ Wire Wire Line
 	5825 3650 5950 3650
 Wire Wire Line
 	5825 4275 5825 3650
+Text Notes 3600 1700 0    50   ~ 0
+I2C Address: 0x3C
+Text Label 9525 6425 0    50   ~ 0
+MCP7
+Text Label 9525 6325 0    50   ~ 0
+MCP6
+Text Label 9525 6225 0    50   ~ 0
+MCP5
+Text Label 9525 6125 0    50   ~ 0
+MCP4
+Text Label 9525 6025 0    50   ~ 0
+MCP3
+Text Label 9525 5925 0    50   ~ 0
+MCP2
+Text Label 9525 5825 0    50   ~ 0
+MCP1
+Text Label 9525 5725 0    50   ~ 0
+MCP0
+Text Label 6100 7025 1    50   ~ 0
+MCP7
+Text Label 6000 7025 1    50   ~ 0
+MCP6
+Text Label 5900 7025 1    50   ~ 0
+MCP5
+Text Label 5800 7025 1    50   ~ 0
+MCP4
+Text Label 5700 7025 1    50   ~ 0
+MCP3
+Text Label 5600 7025 1    50   ~ 0
+MCP2
+Text Label 5500 7025 1    50   ~ 0
+MCP1
+Text Label 5400 7025 1    50   ~ 0
+MCP0
 $EndSCHEMATC

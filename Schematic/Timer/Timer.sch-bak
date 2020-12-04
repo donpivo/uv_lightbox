@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Generic Timer"
+Date "2020-11-03"
 Rev ""
-Comp ""
+Comp "Bjørner Sandom"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -185,7 +185,7 @@ L Device:C C2
 U 1 1 5FE0E6B7
 P 2800 2000
 F 0 "C2" H 2685 1954 50  0000 R CNN
-F 1 "100nF" H 2685 2045 50  0000 R CNN
+F 1 "1µF" H 2685 2045 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2838 1850 50  0001 C CNN
 F 3 "~" H 2800 2000 50  0001 C CNN
 	1    2800 2000
@@ -510,27 +510,27 @@ $EndComp
 Wire Wire Line
 	1725 6250 2150 6250
 Text Label 2150 6250 2    50   ~ 0
-BUTTON0
+IOEXT_BTN0
 Wire Wire Line
 	2825 6250 3250 6250
 Text Label 3250 6250 2    50   ~ 0
-BUTTON1
+IOEXT_BTN1
 Wire Wire Line
 	1725 6625 2150 6625
 Text Label 2150 6625 2    50   ~ 0
-BUTTON2
+IOEXT_BTN2
 Wire Wire Line
 	2825 6625 3250 6625
 Text Label 3250 6625 2    50   ~ 0
-BUTTON3
+IOEXT_BTN3
 Wire Wire Line
 	1725 7000 2150 7000
 Text Label 2150 7000 2    50   ~ 0
-BUTTON4
+IOEXT_BTN4
 Wire Wire Line
 	2825 7000 3250 7000
 Text Label 3250 7000 2    50   ~ 0
-BUTTON5
+IOEXT_BTN5
 $Comp
 L IFS-Power:GND #PWR01
 U 1 1 5FE742E9
@@ -584,25 +584,25 @@ Wire Wire Line
 Wire Wire Line
 	4600 6500 4600 7025
 Text Label 4600 7025 1    50   ~ 0
-BUTTON0
+IOEXT_BTN0
 Wire Wire Line
 	4700 6500 4700 7025
 Text Label 4700 7025 1    50   ~ 0
-BUTTON1
+IOEXT_BTN1
 Wire Wire Line
 	4800 6500 4800 7025
 Wire Wire Line
 	4900 6500 4900 7025
 Text Label 4900 7025 1    50   ~ 0
-BUTTON2
+IOEXT_BTN2
 Wire Wire Line
 	5000 6500 5000 7025
 Text Label 5000 7025 1    50   ~ 0
-BUTTON5
+IOEXT_BTN5
 Wire Wire Line
 	5100 6500 5100 7025
 Text Label 5100 7025 1    50   ~ 0
-BUTTON4
+IOEXT_BTN4
 Wire Wire Line
 	4125 5675 4125 5800
 Wire Wire Line
@@ -640,36 +640,20 @@ Text Label 6275 3975 0    50   ~ 0
 ~RESET
 Wire Wire Line
 	5400 6500 5400 7025
-Text Label 5400 7025 1    50   ~ 0
-MCP0
 Wire Wire Line
 	5500 6500 5500 7025
-Text Label 5500 7025 1    50   ~ 0
-MCP1
 Wire Wire Line
 	5600 6500 5600 7025
-Text Label 5600 7025 1    50   ~ 0
-MCP2
 Wire Wire Line
 	5700 6500 5700 7025
-Text Label 5700 7025 1    50   ~ 0
-MCP3
 Wire Wire Line
 	5800 6500 5800 7025
-Text Label 5800 7025 1    50   ~ 0
-MCP4
 Wire Wire Line
 	5900 6500 5900 7025
-Text Label 5900 7025 1    50   ~ 0
-MCP5
 Wire Wire Line
 	6000 6500 6000 7025
-Text Label 6000 7025 1    50   ~ 0
-MCP6
 Wire Wire Line
 	6100 6500 6100 7025
-Text Label 6100 7025 1    50   ~ 0
-MCP7
 $Comp
 L IFS-Power:GND #PWR022
 U 1 1 5FEECCA0
@@ -714,11 +698,11 @@ Text Label 4800 5000 3    50   ~ 0
 Wire Wire Line
 	4800 5400 4800 5000
 Text Label 5000 5000 3    50   ~ 0
-MCP_INT
+MCP_INTA
 Wire Wire Line
 	5000 5400 5000 5000
 Text Label 6275 4275 0    50   ~ 0
-MCP_INT
+MCP_INTA
 Wire Wire Line
 	6675 4275 6275 4275
 Wire Wire Line
@@ -935,36 +919,20 @@ F 3 "~" H 10250 6025 50  0001 C CNN
 	1    10250 6025
 	1    0    0    -1  
 $EndComp
-Text Label 9525 6425 0    50   ~ 0
-MCP7
 Wire Wire Line
 	10050 6425 9525 6425
-Text Label 9525 6325 0    50   ~ 0
-MCP6
 Wire Wire Line
 	10050 6325 9525 6325
-Text Label 9525 6225 0    50   ~ 0
-MCP5
 Wire Wire Line
 	10050 6225 9525 6225
-Text Label 9525 6125 0    50   ~ 0
-MCP4
 Wire Wire Line
 	10050 6125 9525 6125
-Text Label 9525 6025 0    50   ~ 0
-MCP3
 Wire Wire Line
 	10050 6025 9525 6025
-Text Label 9525 5925 0    50   ~ 0
-MCP2
 Wire Wire Line
 	10050 5925 9525 5925
-Text Label 9525 5825 0    50   ~ 0
-MCP1
 Wire Wire Line
 	10050 5825 9525 5825
-Text Label 9525 5725 0    50   ~ 0
-MCP0
 Wire Wire Line
 	10050 5725 9525 5725
 $Comp
@@ -1384,7 +1352,7 @@ F 3 "" H 5950 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4800 7025 1    50   ~ 0
-BUTTON3
+IOEXT_BTN3
 Wire Wire Line
 	4850 2475 5500 2475
 Wire Wire Line
@@ -1434,4 +1402,38 @@ Wire Wire Line
 	5825 3650 5950 3650
 Wire Wire Line
 	5825 4275 5825 3650
+Text Notes 3600 1700 0    50   ~ 0
+I2C Address: 0x3C
+Text Label 9525 6425 0    50   ~ 0
+MCP7
+Text Label 9525 6325 0    50   ~ 0
+MCP6
+Text Label 9525 6225 0    50   ~ 0
+MCP5
+Text Label 9525 6125 0    50   ~ 0
+MCP4
+Text Label 9525 6025 0    50   ~ 0
+MCP3
+Text Label 9525 5925 0    50   ~ 0
+MCP2
+Text Label 9525 5825 0    50   ~ 0
+MCP1
+Text Label 9525 5725 0    50   ~ 0
+MCP0
+Text Label 6100 7025 1    50   ~ 0
+MCP7
+Text Label 6000 7025 1    50   ~ 0
+MCP6
+Text Label 5900 7025 1    50   ~ 0
+MCP5
+Text Label 5800 7025 1    50   ~ 0
+MCP4
+Text Label 5700 7025 1    50   ~ 0
+MCP3
+Text Label 5600 7025 1    50   ~ 0
+MCP2
+Text Label 5500 7025 1    50   ~ 0
+MCP1
+Text Label 5400 7025 1    50   ~ 0
+MCP0
 $EndSCHEMATC

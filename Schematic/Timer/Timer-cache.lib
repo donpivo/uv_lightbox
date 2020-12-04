@@ -439,8 +439,8 @@ ENDDEF
 # myDevices_MCP23017-E_SO
 #
 DEF myDevices_MCP23017-E_SO U 0 40 Y Y 1 F N
-F0 "U" -100 750 60 H V C CNN
-F1 "myDevices_MCP23017-E_SO" 100 -1100 60 V V L CNN
+F0 "U" -150 850 50 H V C CNN
+F1 "myDevices_MCP23017-E_SO" -700 750 50 H V L CNN
 F2 "digikey-footprints:SOIC-28_W7.5mm" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "Interface - I/O Expanders" 200 700 60 H I L CNN "Family"
